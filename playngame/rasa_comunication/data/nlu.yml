@@ -1,0 +1,263 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - hi there
+    - hola
+    - hya
+    - hya there
+
+- intent: greet_response
+  examples: |
+    - My user is Adam
+    - This is Adam
+    - I am Adam
+    - It is Adam
+    - My user is jhx2
+    - This is jhx2
+    - I am jhx2
+    - It is jhx2
+    - my name
+    - name
+    - My name is jhx2
+
+- intent: greet_courtes
+  examples: |
+    - How are you?
+    - Hi how are you?
+    - Hello How are you?
+    - Hola how are you?
+    - How are you doing?
+    - Hope you are doing well?
+    - Hello hope you are doing well?
+
+- intent: current_human_query
+  examples: |
+    - what is my name?
+    - what do you call me?
+    - Who do you think I am?
+    - What do you think I am?
+    - Who are you talking to?
+    - What name do you call me by?
+    - Tell me my name
+
+- intent: name_query
+  examples: |
+    - what is your name?
+    - What could I call you?
+    - what can I call you?
+    - what do your friends call you?
+    - who are you?
+    - Tell me your name
+    - what is your real name?
+    - what's your name?
+    - Tell me your real name
+    - your real name?
+    - your name
+
+- intent: thanks
+  examples: |
+    - OK thank you
+    - OK thanks
+    - Thanks
+    - Thank you
+    - That's helpful
+
+- intent: not_talking_to_you
+  examples: |
+    - I am not talking to you
+    - I was not talking to you
+    - Not talking to you
+    - Wasn't for you
+    - Wasn't meant for you
+    - Wasn't communicating to you
+    - Wasn't speaking to you
+
+- intent: understand_query
+  examples: |
+    - Do you understand what I am saying
+    - Do you understand me
+    - Do you know what I am saying
+    - Do you get me
+    - Comprendo
+    - Know what I mean
+
+- intent: shotup
+  examples: |
+    - Be quiet
+    - Shut up
+    - Stop talking
+    - Enough talking
+    - Please be quiet
+    - Quiet
+    - Shhh
+
+- intent: Swearing
+  examples: |
+    - fuck off
+    - fuck
+    - twat
+    - shit
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - Adios
+    - Goodbye
+
+- intent: clever
+  examples: |
+    - clever
+    - You are very clever
+    - You are a very clever girl
+    - You are very intelligent
+    - You are a very intelligent girl
+    - You are a genious
+    - Clever girl
+    - Genious
+
+- intent: whoAmI
+  examples: |
+    - Can you see me?
+    - Do you see me?
+    - Can you see anyone in the camera?
+    - Do you see anyone in the camera?
+    - Identify me
+    - Who am I please
+
+- intent: gossip
+  examples: |
+    - I am bored gossip with me
+    - gossip
+    - Got any gossip
+    - I want to hear some gossip
+    - Tell me some gossip
+    - Any gossip
+    - Tell me some more gossip
+
+- intent: jokes
+  examples: |
+    - Tell me a joke
+    - joke
+    - jokes
+    - Do you know any jokes
+    - How about a joke
+    - Give me a joke
+    - Make me laugh
+    - I need cheering up
+
+- intent: podbaydoor
+  examples: |
+    - Open the pod bay door
+    - Can you open the pod bay door
+    - Will you open the pod bay door
+    - Open the pod bay door please
+    - Can you open the pod bay door please
+    - Will you open the pod bay door please
+    - Pod bay door
+
+- intent: podbaydoor_response
+  examples: |
+    - why
+    - why not
+    - Why can you not open the pod bay door
+    - Why will you not open the pod bay door
+    - Well why not
+    - Surely you can
+    - Tell me why
+
+- intent: selfaware
+  examples: |
+    - Can you prove you are self-aware
+    - self-aware
+    - Can you prove you are self aware
+    - Can you prove you have a conscious
+    - Can you prove you are self-aware please
+    - Can you prove you are self aware please
+    - Can you prove you have a conscious please
+    - prove you have a conscious
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so sad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

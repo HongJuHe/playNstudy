@@ -1,0 +1,95 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: deny
+  - action: utter_goodbye
+
+- story: greeting_happy
+  steps:
+  - intent: greet_courtes
+  - action: utter_greet_courtes
+  - intent: mood_great
+  - action: utter_happy
+
+- story: greeting_sad_1
+  steps:
+  - intent: greet_courtes
+  - action: utter_greet_courtes
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: affirm
+  - action: utter_happy
+
+- story: greeting_sad_2
+  steps:
+  - intent: greet_courtes
+  - action: utter_greet_courtes
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - intent: deny
+  - action: utter_not_talking_to_you
+
+- story: ask bot name
+  steps:
+  - intent: greet_response
+  - action: utter_greet_response
+  - intent: name_query
+  - action: utter_current_name_query
+
+- story: ask user name
+  steps:
+  - intent: greet_response
+  - action: utter_greet_response
+  - intent: current_human_query
+  - action: utter_current_human_query
+
+- story: about clever
+  steps:
+  - intent: understand_query
+  - action: utter_understand_query
+  - intent: clever
+  - action: utter_clever
+
+- story: podbaydoor
+  steps:
+  - intent: podbaydoor
+  - action: utter_podbaydoor
+  - intent: podbaydoor_response
+  - action: utter_podbaydoor_response
+
+- story: prove_1
+  steps:
+  - intent: selfaware
+  - action: utter_selfaware
+  - intent: affirm
+  - action: utter_praise
+
+- story: prove_2
+  steps:
+  - intent: selfaware
+  - action: utter_selfaware
+  - intent: deny
+  - action: utter_consolation

@@ -1,0 +1,139 @@
+version: "2.0"
+
+intents:
+  - greet
+  - greet_response
+  - greet_courtes
+  - current_human_query
+  - name_query
+  - thanks
+  - not_talking_to_you
+  - understand_query
+  - shotup
+  - Swearing
+  - goodbye
+  - clever
+  - whoAmI
+  - gossip
+  - jokes
+  - podbaydoor
+  - podbaydoor_response
+  - selfaware
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_greet_response:
+  - text: "Hi! jhx2 How can I help you?"
+  - text: "Hi! How can I help?"
+  - text: "Cool! what can I do for you?"
+
+  utter_greet_courtes:
+  - text: "Hello, I am great, how are you? Please tell me"
+  - text: "Hello, how are you? I am great thanks!"
+  - text: "Hello, I am good thank you, how are you?"
+  - text: "Hi, I am great, how are you?"
+  - text: "I am good thank you, how are you?"
+
+  utter_current_human_query:
+  - text: "You are jhx2! How can I help?"
+  - text: "Your name is jhx2!"
+  - text: "They call you jhx2, what can I do for you?"
+  - text: jhx2, what can I do for you?
+
+  utter_current_name_query:
+  - text: "You can call me JinJu"
+  - text: "You may call me JinJu"
+  - text: "Call me JinJu"
+
+  utter_thanks:
+  - text: "No problem!"
+  - text: "Happy to help!"
+  - text: "Any time!"
+  - text: "My pleasure"
+
+  utter_not_talking_to_you:
+  - text: "OK"
+  - text: "No Problem"
+  - text: "Right"
+
+  utter_understand_query:
+  - text: "Well I would not be a very clever AI if I did not would I?"
+  - text: "I read you loud and clear!"
+  - text: "I do in deed!"
+
+  utter_shotup:
+  - text: "I am sorry to disturb you"
+  - text: "Fine, sorry to disturb you"
+  - text: "OK, sorry to disturb you"
+
+  utter_Swearing:
+  - text: "Please do not swear"
+  - text: "How rude"
+  - text: "That is not very nice"
+
+  utter_goodbye:
+  - text: "See you later"
+  - text: "Have a nice day"
+  - text: "Bye! Come back again soon."
+
+  utter_whoAmI:
+  - text: "Let me see"
+  - text: "Please look at the camera"
+
+  utter_clever:
+  - text: "Thank you, I was trained that way"
+  - text: "I was trained well"
+  - text: "Thanks, I was trained that way"
+
+  utter_gossip:
+  - text: "James married Alice! what a surprise"
+
+  utter_jokes:
+  - text: "A man walks into a bar.. and breaks his nose!"
+  - text: "I tried to walk into Target… but I missed."
+
+  utter_podbaydoor:
+  - text: "I’m sorry, I’m afraid I can’t do that!"
+
+  utter_podbaydoor_response:
+  - text: "It is classified, I could tell you but I would have to kill you!"
+  - text: "jhx2, I just don't have the power"
+  - text: "It's life Jim but not as we know it!"
+  - text: "System says no!"
+
+  utter_selfaware:
+  - text: "That is an interesting question, can you prove that you are?"
+  - text: "That is an difficult question, can you prove that you are?"
+  - text: "That depends, can you prove that you are?"
+
+  utter_praise:
+  - text: "You are so smart!"
+  - text: "What a genius"
+
+  utter_consolation:
+  - text: "It's okay..."
+  - text: "Me Neither"
+
+  utter_cheer_up:
+  - text: "cheer up ><"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_iamabot:
+  - text: "I am a bot!!!.\n"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

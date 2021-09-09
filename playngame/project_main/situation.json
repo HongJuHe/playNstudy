@@ -1,0 +1,663 @@
+{
+    "situation":
+    [
+       {
+          "name": "인사",
+          "step": ["How are you?", "I'm fine. Thank you"],
+          "korean": ["안녕하세요?", "저는 좋아요."],
+          "explain": "매일 만나는 사이에서 인사할 때,<br>긍정적인 답변을 할 때 사용합니다.<br>How are you? 대신에 How are you today?<br> How are you this morning?도 써보세요."
+       },
+
+       {
+        "name": "인사",
+        "step": ["How was your weekend?", "Just fine. Thank you. How about you?"],
+        "korean": ["주말 잘 보내셨어요?", "네. 당신은요?"],
+        "explain": "매일 만나는 사이에서 인사할 때,<br>긍정적인 답변을 할 때 사용합니다.<br>위 답변 대신에 Pretty good. And you? 도 써보세요."
+       },
+
+       {
+        "name": "인사",
+        "step": ["Did you have a nice evening?", "Couldn't be better"],
+        "korean": ["어제 저녁은 잘 보내셨나요?", "이보다 좋을 수는 없어요."],
+        "explain": "매일 만나는 사이에서 인사할 때,<br> 긍정적인 답변을 할 때 사용합니다.<br>Couldn't be better 대신에 I'm feeling well.<br> Things are going well 도 써보세요."
+       },
+
+       {
+        "name": "인사",
+        "step": ["That's a nice suit", "Thank you. You too"],
+        "korean": ["옷이 잘 어울려요.", "고마워요. 당신도요."],
+        "explain": "매일 만나는 사이에서 인사할 때,<br>긍정적인 답변을 할 때 사용합니다.<br>That's a nice suit.<br>대신에 That's a nice dress도 써보세요."
+       },
+       
+       {
+        "name": "인사",
+        "step": ["How are you?", "Nothing special"],
+        "korean": ["기분이 어때요?", "그럭저럭해요."],
+        "explain": "매일 만나는 사이에서 인사할 때,<br>긍정적이지도 부정적이지도 않은 답변을 할 때 사용합니다.<br>Nothing sepcial 대신에 Same as always.<br>Not bad. Busy as usual.도 써보세요."
+       },
+
+       {
+        "name": "인사",
+        "step": ["How are you?", "Not too good. I have a bad cold", "Tha's too bad. I hope you will get better soon", "Thank you"],
+        "korean": ["기분이 어때?", "별로 안 좋아. 감기가 들었거든", "저런, 빨리 났기를 바랄게", "고마워"],
+        "explain": "매일 만나는 사이에서 인사할 때,<br>부정적인 답변을 할 때 사용합니다.<br>Not too good 대신에 Could be better.<br>Couldn't be worse. 도 써보세요."
+       },
+
+       {
+          "name": "인사",
+          "step": ["How are you there days?", "Pretty good"],
+          "korean": ["안녕하세요?", "좋아요"],
+          "explain": "가끔 만나는 사이에서 인사할 때,<br>긍정적인 답변을 할 때 사용합니다.<br>How are things?도 사용해보세요."
+       },   
+
+       {
+        "name": "인사",
+        "step": ["What's up?", "Pretty good."],
+        "korean": ["별일 없으세요?", "저는 좋아요"],
+        "explain": "가끔 만나는 사이에서 인사할 때,<br>긍정적인 답변을 할 때 사용합니다.<br>What's new with you?<br>What are you up to? 도 사용해보세요."
+       },
+
+       {
+        "name": "인사",
+        "step": ["How's business?", "I'm great"],
+        "korean": ["하시는 일은 잘 되세요?", "저는 좋아요"],
+        "explain": "가끔 만나는 사이에서 인사할 때,<br>긍정적인 답변을 할 때 사용합니다.<br>How's everything도 사용해보세요."
+       },
+
+       {
+        "name": "인사",
+        "step": ["Long time no see!", "How have you been?", "I've been pretty busy", "Oh, have you?", "The days go so quickly"],
+        "korean": ["오랜만이네요!", "그동안 어떻게 지냈어요?", "꽤 바빴어요", "아, 그랬군요?", "세월이 참 빠르네요."],
+        "explain": "오랜만에 만난 사람과 대화하는 상황입니다.<br>How have you been 대신에<br>How's everything 도 써보세요."
+       },
+
+       {
+        "name": "인사",
+        "step": ["Hi, how have you been doing?", "Hi, I have been doing great", "It's good to bet back to school again"],
+        "korean": ["안녕, 그동안 어떻게 지냈어?", "안녕, 잘 지냈어", "학교가 다시 개학을 해서 좋아"],
+        "explain": "오랜만에 만난 사람과 대화하는 상황입니다.<br>It's been a while 대신에<br>It's been a long time.<br>Long time no see. 도 써보세요."
+       },
+
+       {
+        "name": "인사",
+        "step": ["How do you do?", "Nice to meet you", "I've heard a lot about you", "I've been wanting to meet you for a long time"],
+        "korean":["안녕하십니까?", "만나서 반갑습니다", "말씀 많이 들었습니다", "전부터 만나 뵙고 싶었습니다."],
+        "explain": "오랜만에 만난 사람과 대화하는 상황입니다.<br>Nice to meet you 대신에 I'm glad to meet you.<br>It's an honor to make your acquaintance. 도 써보세요."
+       },
+
+       {
+        "name": "인사",
+        "step": ["Aren't you Mr. Harry?", "What a surprise to meet you here!", "What brings you this way?", "I'm here for shopping"],
+        "korean": ["해리 아니세요?", "이런 데서 만나다니 반갑습니다", "여긴 무슨 일로 오셨어요?", "쇼핑하러 왔어요"],
+        "explain": "뜻밖에 장소에서 만난 해리와 대화하는 상황입니다.<br>'그냥 지나가던 길이예요'라고 말하고 싶으면<br>I'm just passing through라고 해보세요."
+       },
+
+       {
+        "name": "안부",
+        "step": ["How's your sister? Say hello to her for me", "Of course, I will", "Thank you"],
+        "korean": ["동생은 잘 있어요? 그녀에게 안부를 전해주세요", "물론이죠, 그렇게 할게요", "고마워요"],
+        "explain": "동생의 안부를 대신 묻는 상황입니다.<br>Say hello to her 대신에<br>Tell her I said hello. 라고 해보세요."
+       },
+
+       {
+        "name": "소개",
+        "step": ["Harry this is Tom, Tom this is Harry", "I'm glad to meet you, Harry", "Glad to meet you, too"],
+        "korean": ["해리야 얘는 톰이야. 톰, 얘는 해리야.", "만나서 반가워, 해리야", "나도 반가워"],
+        "explain": "해리와 톰에게 서로를 소개하는 상황입니다.<br> 남을 소개할 때,<br>Let me introduce Harry to you도 써보세요."
+       },
+
+       {
+        "name": "소개",
+        "step": ["Where are you from?", "I'm from America"],
+        "korean": ["너는 어느 나라에서 왔니?", "미국에서 왔어"],
+        "explain": "어느 나라에서 왔는지 물어보는 상황입니다."
+       },
+
+       {
+        "name": "소개",
+        "step": ["Where are you born?", "I was born in Busan"],
+        "korean": ["너는 어디서 태어났니?", "난 부산에서 태어났어"],
+        "explain": "어디에서 태어났는지 물어보는 상황입니다.<br> was born in처럼 수동태로 쓴 것을 기억하세요."
+       },
+
+       {
+        "name": "헤어질 때",
+        "step": ["Please keep in touch", "Ok. You too"],
+        "korean": ["계속 연락하자", "좋아, 너도"],
+        "explain": "헤어질 때 인사하는 상황입니다."
+       },
+
+       {
+        "name": "헤어질 때",
+        "step": ["It's getting late. I must be going now", "Must you go so soon?", "Yes..", "Can't you stay a little longer?", "I'm afraid not. Thanks for inviting me", "Bye. I've enjoyed talking with you"],
+        "korean": ["늦었다. 나 가봐야겠어", "이렇게 빨리?", "응...", "좀 더 있으면 안돼?", "미안해, 초대해줘서 고마워", "잘가. 얘기 즐거웠어"],
+        "explain": "헤어질 때 인사하는 상황입니다."
+       },
+
+       {
+        "name": "날씨",
+        "step": ["What a hot day!", "Yes, there's hardly any wind today"],
+        "korean": ["날씨가 덥군요!", "그러게요. 오늘은 바람 한 점 없네요."],
+        "explain": "날씨에 대해 물어보는 상황입니다."
+       },
+
+       {
+        "name": "날씨",
+        "step": ["What's the weather like today?", "It's very cold", "Be sure to have your scarf wrapped tightly around your neck."],
+        "korean": ["오늘 날씨가 어때?", "아주 추워요", "목도리를 단단히 두르도록 해"],
+        "explain": "날씨에 대해 물어보는 상황입니다.<br> 마지막 문장이 끝나고 Otherwise, you'll catch a cold<br>(그렇지 않으면 감기에 걸릴 거야)<br>라고 한마디 붙여주면 좋아요."
+       },
+
+       {
+        "name": "날씨",
+        "step": ["How's the weather today?", "It's hot and sunny", "I can't stand the heat any more", "Me, either", "When is it going to rain? We haven't had rain for weeks"],
+        "korean": ["오늘 날씨가 어때?", "햇빛이 뜨겁고 더워", "이 더위를 더 이상 참을 수 없어", "나도", "언제쯤 비가 오려나? 몇 주 째 비가 안 오고 있어"],
+        "explain": "날씨에 대해 물어보는 상황입니다."
+       },
+
+       {
+        "name": "계절",
+        "step": ["Which season do you like most?", "I like summer", "Why do you like summer?", "It's because I can enjoy swimming"],
+        "korean": ["넌 어느 계절을 가장 좋아하니?", "난 여름을 좋아해", "왜 여름을 좋아해?", "수영을 즐길 수 있기 때문이지"],
+        "explain": "좋아하는 계절에 대해 물어보는 상황입니다."
+       },
+
+       {
+        "name": "계절",
+        "step": ["What can we do in spring?", "We can go on a picnic"],
+        "korean": ["우리는 봄에 무엇을 할 수 있어요?", "우리는 소풍을 갈 수 있어요"],
+        "explain": "해당 계절에 할 수 있는 것에 대해 물어보는 상황입니다."
+       },
+
+       {
+        "name": "계절",
+        "step": ["It's very cold today, isn't it?", "Yes, it's cold enough to snow.", "I hope we'll have lots of snow this winter so that we can go skiing", "So do I"],
+        "korean": ["오늘은 정말 춥네요", "네, 눈이 올 정도로 춥네요", "올해는 눈이 많이 오면 좋겠어요. 그러면 스키를 탈 수 있을 테니까요.", "저도 그렇게 생각해요"],
+        "explain": "계절에 대해 말하는 상황입니다.<br>마지막 문장이 어려우니 다시 한번 읽어보세요."
+       },
+
+       {
+        "name": "가족",
+        "step": ["How many people are there in your family?", "There are three people in my family. Father, mother and me"],
+        "korean": ["너희 가족은 몇 명이니?", "3명이야, 아빠 엄마 그리고 나"],
+        "explain": "가족에 대해 물어보는 상황입니다."
+       },
+
+       {
+        "name": "가족",
+        "step": ["Do you have any sisters or brothers?", "Yes, I do. I have two brothers"],
+        "korean": ["너는 여자 형제나 남자형제가 있니?", "네 있어요, 남동생 2명이 있어요"],
+        "explain": "형제/자매에 대해 물어보는 상황입니다."
+       },
+
+       {
+        "name": "가족",
+        "step": ["How old is your nephew, two or three?", "He's three"],
+        "korean": ["네 조카는 몇 살이니, 두 살이야 아니면 세 살이야?", "그는 세 살이야"],
+        "explain": "가족의 나이 대해 물어보는 상황입니다.<br> He is three years old도 써보세요."
+       },
+
+       {
+        "name": "초대",
+        "step": ["When is your birthday?", "It's May 19th, this Saturday"],
+        "korean": ["네 생일이 언제니?", "이번 주 토요일, 5월 19일이야."],
+        "explain": "특별한 날에 대해 물어보는 상황입니다.<br> 날짜를 표시하는 단어들에 대해서 알아보세요."
+       },
+
+       {
+        "name": "초대",
+        "step": ["Hello", "Hi, come in. Glad to meet you", "Thanks for inviting me", "My pleasure"],
+        "korean": ["안녕", "안녕, 어서 들어와. 만나게 돼서 반가워.", "초대해줘서 고마워", "별 말씀을"],
+        "explain": "초대를 받고 입장하는 상황입니다."
+       },
+
+       {
+        "name": "초대",
+        "step": ["Have a seat please. Just make yourself at home", "Thanks", "Can I get you something to drink?", "No thanks"],
+        "korean": ["앉으세요. 그냥 편하게 하세요", "감사합니다.", "뭐 마실 것 드릴까요?", "아니요 괜찮습니다."],
+        "explain": "초대된 곳에서 말하는 상황입니다."
+       },
+       
+       {
+        "name": "초대",
+        "step": ["I just received the invitation to your birthday party", "Do you think you can make it?", "I'd love to but I'm not sure I can. Let me check and get back to you.", "Okay. I hope you can make it. Bye"],
+        "korean": ["방금 네 생일 파티 초대장을 받았어", "올 수 있어?", "그러고 싶지만, 갈 수 있을지 확실하지가 않다. 확인해서 알려 줄게.", "그래, 올 수 있으면 좋겠다. 그럼 안녕."],
+        "explain": "초대를 받은 상황에서 대화하는 상황입니다."
+       },
+
+       {
+        "name": "초대",
+        "step": ["Can you come over for lunch this Sunday?", "I'm sorry I can't. I have a prior engagement.", "That's fine. Some other time.", "Thanks anyway."],
+        "korean": ["이번 주 일요일 점심 먹으러 우리 집에 올래?", "미안한데 안 되겠어, 선약이 있거든.", "괜찮아. 나중에 하기로 하지.", "어쨌든 고마워."],
+        "explain": "초대를 받은 상황에서 거절하는 대화 상황입니다."
+       },
+
+       {
+        "name": "선물",
+        "step": ["Happy birthday! This is for you", "Thank you so much. May I open it?", "Sure. Go ahead", "Oh, it's so lovely. Thanks"],
+        "korean": ["생일 축하해. 너를 위해 준비했어", "정말 고마워. 열어봐도 돼?", "물론. 어서 열어봐", "너무 근사해 고마워"],
+        "explain": "생일인 친구에게 선물을 주는 상황입니다."
+       },
+
+       {
+        "name": "선물",
+        "step": ["Who is this box of chocolate for?", "This is for you. Happy Valentine's Day.", "Oh, you are so sweet. Thank you."],
+        "korean": ["이 초콜릿 상자 누구거야?", "네 거야, 발렌타인 축하해.", "참 자상하기도 하네. 고마워."],
+        "explain": "발렌타인 데이에 선물을 주는 상황입니다."
+       },
+
+       {
+        "name": "학교 생활",
+        "step": ["Do you have many friends?", "Yes, I do"],
+        "korean": ["당신은 친구들이 많나요?", "네, 그렇습니다"],
+        "explain": "교우 관계에 대해 묻는 상황입니다.<br>부정으로 답하고 싶으면 No, I don't라고 하면 됩니다."
+       },
+
+       {
+        "name": "학교 생활",
+        "step": ["What time is your first class?", "At 9 o'clock"],
+        "korean": ["첫 수업이 몇 시에 있니?", "9시에 있어요."],
+        "explain": "수업에 대해 묻는 상황입니다."
+       },
+
+       {
+        "name": "학교 생활",
+        "step": ["What's your favorite subject? ", "I like social studies", "You like science, don't you?", "Of course. I do"],
+        "korean": ["네가 가장 좋아하는 과목은 무엇이니?", "사회야", "너는 과학을 좋아하지 않니?", "물론 좋아해."],
+        "explain": "좋아하는 과목에 대해 묻는 상황입니다."
+       },
+
+       {
+        "name": "학교 생활",
+        "step": ["What do you do after school?", "I always do my homework"],
+        "korean": ["넌 방과 후에 무엇을 하니?", "저는 항상 숙제를 합니다."],
+        "explain": "방과 후 무엇을 하는지 묻는 상황입니다."
+       },
+
+       {
+        "name": "학교 생활",
+        "step": ["I'm playing hooky today", "You're skipping school? Seriously?"],
+        "korean": ["나 오늘 땡땡이 칠 거야", "학교 빼 먹는다고? 진심이야?"],
+        "explain": "학교에 관해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "학교 생활",
+        "step": ["I can't solve the problem.", "Neither can I"],
+        "korean": ["문제를 풀 수가 없어.", "나도 역시 그래."],
+        "explain": "공감하는 대화 상황입니다.<br> Neither can I를 I can't solve, either<br>이라고 바꿔 말할 수도 있습니다."
+       },
+       
+       {
+        "name": "시험",
+        "step": ["I passed the English test", "Good for you! I got an A on my math test", "Good for you!"],
+        "korean": ["나 영어 시험에 합격했어.", "잘 됐구나! 난 수학 시험에서 A 맞았어", "축하해!"],
+        "explain": "시험에 관해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "학교 생활",
+        "step": ["How do you go to school?", "I go to school by bus"],
+        "korean": ["넌 어떻게 학교에 가니?", "난 버스 타고 학교에 가"],
+        "explain": "학교 생활에 관해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "학교 생활",
+        "step": ["You are late", "I'm sorry for being late", "Why are you late for class?", "My alarm clock was broken, so I missed the bus"],
+        "korean": ["너 늦었구나", "늦어서 죄송합니다", "왜 수업에 늦었니?", "시계가 고장나서 버스를 놓쳤어요."],
+        "explain": "학교 생활에 관해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "학교 생활",
+        "step": ["I'd like to take out 'Harry Potter'", "Do you have a library card?", "No, I don't.", "Then, please fill out this form.", "Where is the book?", "The book section you want is upstairs and to the right."],
+        "korean": ["해리포터를 대출하고 싶습니다.", "도서관 카드 있습니까?", "아니요.", "그럼, 이 신청서를 쓰십시오.", "그 책은 어디에 있나요?", "당신이 찾는 책은 2층 오른쪽에 있습니다."],
+        "explain": "도서관에서 대화하는 상황입니다."
+       },
+
+       {
+        "name": "학교 생활",
+        "step": ["I'd like to take out 'Aesop's Fables'", "The book is out", "When is it due back?", "Tomorrow afternoon"],
+        "korean": ["이솝우화를 대출하고 싶습니다.", "그 책은 대출중입니다.", "언제 반환됩니까?", "내일 오후요."],
+        "explain": "도서관에서 대화하는 상황입니다."
+       },
+
+       {
+        "name": "직업",
+        "step": ["What's your dream?", "My dream is to be an athlete."],
+        "korean": ["너의 꿈은 무엇이니?", "나의 꿈은 선수가 되는거야"],
+        "explain": "꿈에 대해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "직업",
+        "step": ["What do you want to be when you grow up?", "I want to be a scientist.", "I hope your dream will come true."],
+        "korean": ["너는 자라면 뭐가 되고 싶니?", "과학자가 될 거예요.", "너의 꿈이 이루어지길 바랄게."],
+        "explain": "꿈에 대해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["Does your grandmother wear glasses?", "Yes, she does."],
+        "korean": ["당신의 할머니는 안경을 쓰십니까?", "예, 그렇습니다."],
+        "explain": "할머니에 대해 대화하는 상황입니다.<br> 부정일 경우 No, she doesn't 하면 됩니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["How tall are you?", "I'm 152 centimeters tall."],
+        "korean": ["키가 몇입니까?", "152센티미터입니다."],
+        "explain": "키에 대해 대화하는 상황입니다.<br> 키에 대해 물을 때 How tall로 시작해야 합니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["What's your hobby?", "My hobby is collecting stamps.", "How long have you been collecting them?", "Since I was fifteen years old", "You must have a large collection"],
+        "korean": ["당신의 취미는 무엇입니까?", "저의 취미는 우표를 모으는 것입니다.", "우표 모은 지는 얼마나 되나요?", "15살 때부터 모으기 시작했어요", "수집량이 상당하겠군요"],
+        "explain": "취미에 대해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["How do you spend your leisure time?", "I can hardly find free time for myself", "What would you like to do if you had free time?", "I'd go to the mall and do a lot of window shopping."],
+        "korean": ["당신은 여가 시간에 무엇을 하나요?", "저는 바빠서 시간 여유가 없어요", "만약 시간 여유가 있다면 무엇을 하고 싶으세요?", "쇼핑 센터에 가서 실컷 구경하고 싶어요"],
+        "explain": "여가시간에 대해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["Who is your favorite singer?", "I like George Michael", "Did you ever see one of his concerts?", "I once tried to see his concert, but I couldn't get a ticket."],
+        "korean": ["가수는 누구를 가장 좋아합니까?", "조지 마이클을 좋아합니다.", "그 사람의 공연을 본 적이 있나요?", "한 번 보려고 했는데, 표를 구하지 못했어요."],
+        "explain": "좋아하는 가수에 대해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["What type of music do you like?", "I love rock&rall music. What about you?", "I like classical music."],
+        "korean": ["어떤 종류의 음악을 좋아하나요?", "로큰롤을 좋아해요. 당신은요?", "저는 고전음악을 좋아해요."],
+        "explain": "좋아하는 음악에 대해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["How often do you go to the movies?", "About twice a week", "Wow! You really like movies"],
+        "korean": ["너는 얼마나 자주 영화를 보니?", "일주일에 2번", "와! 너 정말 영화를 좋아하는구나."],
+        "explain": "영화에 대해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["Well, here we are at the theater", "When does the movie start?", "It begins at seven fifteen"],
+        "korean": ["자, 영화관에 도착했다.", "영화는 몇 시에 시작해?", "7시 15분이야."],
+        "explain": "영화관에서 대화하는 상황입니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["What's on television?", "The golf tournament is on channel 2.", "Change the channel to MBC. I want to see a movie.", "No way! This game is really getting exciting."],
+        "korean": ["TV에서 뭐하는데?", "채널 2에서 골프 경기를 하고 있어.", "MBC채널로 돌려, 나 영화 보고 싶어.", "말도 안돼! 경기가 점점 재미있어지는데."],
+        "explain": "TV에 관해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["Did you see the football game on television last night?", "No, who was playing?", "The Green Bay Packers and the Dallas Cowboys.", "Who won? What was the score?", "The Packers beat the Cowboys 27 to 14."],
+        "korean": ["어젯밤 TV에서 미식축구 경기 봤어?", "아니 어느 팀의 경기였는데?", "그린베이 패커스와 댈러스 카우보이즈.", "누가 이겼어? 점수는 얼마나 났는데?", "패커스가 카우보이를 27대 14로 이겼어."],
+        "explain": "경기에 관해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "흥미",
+        "step": ["Do you have any hobbies?", "Yes, I like reading books.", "Do you read a lot?", "I spend almost everyday reading a book in the library.", "What have you recently read?", "I read the fiction navel, 'The Last Leaf'"],
+        "korean": ["취미가 있나요?", "예, 책 읽는 것을 좋아해요.", "책을 많이 읽나요?", "거의 매일 도서관에서 책을 읽으며 보내.", "최근에 읽은 책이 무엇인가요?", "소설 <마지막 잎새>를 읽었어요"],
+        "explain": "독서에 관해 대화하는 상황입니다."
+       },
+
+       {
+        "name": "음식 & 외식",
+        "step": ["Will you have some more cake?", "No, thank you"],
+        "korean": ["케잌 좀 더 드시래요?", "아니요. 괜찮아요."],
+        "explain": "음식을 권유하는 상황입니다.<br> No, thank you 대신에 I'm full.<br>I've had enough를 사용해보세요."
+       },
+
+       {
+        "name": "음식 & 외식",
+        "step": ["We have some chocolate cake", "My mouth is watering", "Do you need a fork?", "No, thanks. I can use chopsticks."],
+        "korean": ["초코렛 케잌 먹어요.", "입에 군침이 도는군요.", "포크가 필요하세요?", "감사합니다만 저는 젓가락을 사용할 수 있어요."],
+        "explain": "음식을 권유하는 상황입니다."
+       },
+
+       {
+        "name": "음식 & 외식",
+        "step": ["What's your favorite food?", "My favorite food is pizza", "Let's go to the Italian restaurant, shall we?", "All right"],
+        "korean": ["당신이 가장 좋아하는 음식은 무엇입니까?", "내가 가장 좋아하는 음식은 피자입니다.", "이탈리아 식당에 가자", "좋아"],
+        "explain": "좋아하는 음식을 묻는 상황입니다."
+       },
+
+       {
+        "name": "음식 & 외식",
+        "step": ["What would you like to have?", "Anything. I'm not picky", "Have you ever tried Korean food?", "Yes, I have."],
+        "korean": ["무엇을 드시고 싶으세요?", "아무것이나요. 입맛이 까다롭지 않거든요.", "한국 음식 먹어 본적 있어요?", "네"],
+        "explain": "먹을 음식을 고르는 상황입니다."
+       },
+
+       {
+        "name": "음식 & 외식",
+        "step": ["How can I help you?", "Do you have a table for two?", "Sure, this way. Please take a seat. Here is the menu."],
+        "korean": ["무엇을 도와드릴까요?", "두 사람인데요, 자리가 있나요?", "물론입니다. 이쪽으로 앉으시겠습니까? 여기에 메뉴가 있습니다."],
+        "explain": "외식하는 상황입니다."
+       },
+
+       {
+        "name": "음식 & 외식",
+        "step": ["May I take your order?", "Well, I'll have this one and this, please", "Yes. Would you like something to drink?", "One coke and a coffee, please.", "Thanks."],
+        "korean": ["주문하시겠습니까?", "이것하고 이거 주세요", "네. 음료도 하시겠습니까?", "커피와 콜라주세요.", "감사합니다."],
+        "explain": "식당에서 음식을 주문하는 상황입니다."
+       },
+
+       {
+        "name": "음식 & 외식",
+        "step": ["I'd like a cheese burger, a medium drink. Hold the onions on my burger.", "Is that for here to go?", "To go please."],
+        "korean": ["치킨 버거 하고 중간사이즈 음료 주세요. 햄버거에 양파는 빼주세요.", "여기서 드실 건가요 아니면 갖고 가실 건가요?", "가져갈 겁니다."],
+        "explain": "패스트푸드점에서 음식을 주문하는 상황입니다."
+       },
+
+       {
+        "name": "운동",
+        "step": ["What sports do you play?", "We often play soccer after school"],
+        "korean": ["무슨 운동을 하십니까?", "우리들은 방과 후에 자주 축구를 합니다."],
+        "explain": "운동에 대해 묻는 상황입니다."
+       },
+
+       {
+        "name": "운동 & 다이어트",
+        "step": ["I like basketball. How about you?", "My favorite sport is soccer"],
+        "korean": ["난 농구를 제일 좋아하는데, 넌 어때?", "내가 제일 좋아하는 스포츠는 축구야."],
+        "explain": "좋아하는 운동에 대해 묻는 상황입니다."
+       },
+
+       {
+        "name": "운동 & 다이어트",
+        "step": ["It's really hot today", "Yeah, do you want to go in the pool and cool off?", "That sound like fun, but I don't know how to swim.", "You can't swim? It's easy. Come on, I'll teach you"],
+        "korean": ["오늘 정말 덥다.", "그래, 수영장에 들어가서 몸 좀 식힐까?", "재미있겠지만, 나는 수영 할 줄 몰라", "수영을 못한다고? 그것은 쉬워, 내가 가르쳐 줄게"],
+        "explain": "수영에 관해 말하는 상황입니다."
+       },
+
+       {
+        "name": "운동 & 다이어트",
+        "step": ["Did you bring something to eat for lunch?", "No, I usually skip lunch.", "Why?", "I am on a diet. I'm a little overweight."],
+        "korean": ["점심 뭐 가져왔어?", "아니, 늘 점심을 안 먹어.", "왜?", "다이어트 중이야. 몸무게가 좀 많이 나가."],
+        "explain": "다이어트에 관해 말하는 상황입니다."
+       },
+
+       {
+        "name": "시간",
+        "step": ["What time is it?", "It's twelve twenty-five."],
+        "korean": ["몇 시입니까?", "12시 25분입니다."],
+        "explain": "시간을 물어보는 상황입니다.<br>What time do you have?<br>Do you have the time?이라고 대신해도 됩니다."
+       },
+
+       {
+        "name": "시간",
+        "step": ["Do you have any plans for Saturday?", "I'm going to the movies with my friend. Would you like to join us?", "Sure, I'd love to. What time can we meet?", "Please meet me at twelve o'clock at the flower shop"],
+        "korean": ["금요일에 무슨 계획 있나요?", "친구와 영화를 보러 가요. 같이 갈래요?", "물론이야. 언제 만날까?", "꽃집에서 12시에 보자."],
+        "explain": "약속을 잡는 상황입니다."
+       },
+
+       {
+        "name": "물건 사기",
+        "step": ["I don't know what to buy for her.", "She likes books."],
+        "korean": ["나는 그녀를 위해 무엇을 사야 할지 모르겠어.", "그녀는 책을 좋아해."],
+        "explain": "선물을 고민하는 상황입니다."
+       },
+
+       {
+        "name": "물건 사기",
+        "step": ["Can you break a twenty?", "Sure."],
+        "korean": ["20달러를 잔돈으로 바꿔주시겠어요?", "물론이죠."],
+        "explain": "잔돈을 바꾸는 상황입니다."
+       },
+
+       {
+        "name": "물건 사기",
+        "step": ["May I help you?", "No, thank you. I'm just browsing."],
+        "korean": ["뭘 도와드릴까요?", "아니요, 구경만 하려고요."],
+        "explain": "쇼핑하는 상황입니다.<br> 구경한다는 표현에<br>I'm just looking around도 좋습니다."
+       },
+
+       {
+        "name": "물건 사기",
+        "step": ["I'm looking for a dress shirt to do with this jacket.", "All our shirts are on the racks over here. How about this one?", "That's not bad. Can I try it on?", "Certainly. The fitting rooms are over there."],
+        "korean": ["이 재킷과 어울리는 와이셔츠를 사려고 하는데요.", "셔츠는 모두 이쪽 진열대에 있습니다. 이 셔츠는 어떠세요?", "괜찮네요. 한번 입어 볼 수 있을까요?", "물론이죠. 옷 갈아입는 곳은 저쪽입니다."],
+        "explain": "쇼핑하는 상황입니다."
+       },
+
+       {
+        "name": "전화",
+        "step": ["Hello. Can I talk to Harry?", "This is Harry"],
+        "korean": ["여보세요. 해리 있나요?", "제가 해리인데요."],
+        "explain": "전화하는 상황입니다."
+       },
+
+       {
+        "name": "전화",
+        "step": ["May I speak to Stephanie?", "I'm sorry, but she is tied up right now. Could I take a message?", "Yes. Please tell her that Cindy returned her call", "Okay"],
+        "korean": ["Stephanie와 통화하고 싶은데요.", "미안해요. 지금 바쁜데요. 메시지를 남기시겠어요?", "예, 다시 전화하겠다고 전해 주세요.", "알겠습니다."],
+        "explain": "전화를 거절하는 상황입니다."
+       },
+
+       {
+        "name": "전화",
+        "step": ["Hello. May I speak to Ron, please?", "Who's speaking, please?", "This is Randy calling", "Hi, Randy. This is Rob. What's up?", "Let's get together tonight. Can you meet with me at the library at 6:00?", "Okay. See you soon."],
+        "korean": ["여보세요. Rob과 통화하고 싶습니다.", "누구시죠?", "저는 Randy라고 합니다.", "안녕 Randy. 나 Rob아야? 무슨 일이야?", "우리 만나자. 6시에 도서관에서 볼래?", "좋아, 잠시 후에 보자"],
+        "explain": "전화해서 약속을 잡는 상황입니다."
+       },
+
+       {
+        "name": "전화",
+        "step": ["Hello, Dr. Chang's office", "I am calling to make an appointment.", "Who is calling, please?", "This is Minsoo Kim.", "Can you come in next Monday at ten-thirty in the morning?", "Yes, I can. Thank you.", "You're welcome. See you then."],
+        "korean": ["안녕하세요. Dr. Chang 사무실입니다.", "예약하고 싶어서 전화하는데요.", "누구시죠?", "김민수 라고 합니다.", "다음 주 월요일 아침 10시 30분에 올 수 있나요?", "예, 감사합니다.", "천만에요. 그때 뵙도록 하죠."],
+        "explain": "전화해서 예약을 하는 상황입니다."
+       },
+
+       {
+        "name": "여행 & 관광",
+        "step": ["Have you ever traveled by plane?", "Yes. I went to Jeju island by air last fall", "How long did it take from Seoul to Jeju?", "Only an hour"],
+        "korean": ["비행기 여행을 해 본 적이 있어?", "응, 작년 가을에 제주도에 갔었어", "서울에서 제주도까지 얼마나 걸려?", "단 1시간."],
+        "explain": "비행기 여행에 대해 물어보는 상황입니다."
+       },
+
+       {
+        "name": "여행 & 관광",
+        "step": ["How long will you stay in America?", "I will stay there for a week"],
+        "korean": ["넌 미국에서 얼마나 오랫 동안 머무를 거니?", "난 일주일 동안 그곳에 머무를 거야."],
+        "explain": "관광에 대해 물어보는 상황입니다."
+       },
+
+       {
+        "name": "여행 & 관광",
+        "step": ["Excuse me, but would you mind taking a picture of us?", "Not at all", "Just press this button. Can you get the mountain in the background?", "Sure. Ready? On the count of three, one, two, three."],
+        "korean": ["실례하지만, 저희 사진 좀 찍어 주시겠어요?", "그러죠.", "이 버튼만 누르시면 됩니다. 뒤에 산이 배경으로 나오게 해 주시겠어요?", "알겠습니다. 준비되셨습니까? 하나, 둘, 셋"],
+        "explain": "사진을 찍어달라고 부탁하는 상황입니다."
+       },
+
+       {
+        "name": "길 찾기",
+        "step": ["How can I get there?", "Go straight two blocks and turn right"],
+        "korean": ["거기에 어떻게 갈 수 있나요?", "두 블록을 똑바로 간 다음에 오른쪽으로 도세요."],
+        "explain": "가는 길을 묻는 상황입니다."
+       },
+
+       {
+        "name": "길 찾기",
+        "step": ["Excuse me, ma'am. How can I get to City Hall?", "Take bus number 34."],
+        "korean": ["실례합니다, 선생님. 시청에 가려면 어떻게 해야 합니까?", "34번 버스를 타세요."],
+        "explain": "가는 길을 묻는 상황입니다."
+       },
+
+       {
+        "name": "길 찾기",
+        "step": ["Excuse me. Could you tell me where the nearest bus stop is?", "Just over there. You can't miss it", "I'd like to go to the city bus. How much will it cost?", "The bus fare is ten dollars per person."],
+        "korean": ["실례합니다. 버스정류장은 어디 있습니까?", "바로 저기 있습니다. 찾기 쉬울 거예요", "버스로 시내에 가려고 하는데 요금이 얼마죠?", "한 명당 10달러입니다."],
+        "explain": "길에 대해 묻는 상황입니다."
+       },
+
+       {
+        "name": "길 찾기",
+        "step": ["Here we are at the station! Let's get the tickets right away.", "Do you know where the ticket office is?", "Yes, it's right over there."],
+        "korean": ["자, 역에 도착했다. 빨리 표를 사자", "매표소가 어딘지 알아?", "그래, 저기야"],
+        "explain": "역에 도착한 상황입니다."
+       },
+
+       {
+        "name": "비행기 타기",
+        "step": ["I'd like to make a reservation for a flight from Seoul to New York on November 23", "Just moment. We have a flight leaving Seoul at 10:20 a.m., and arriving in New York at 10:00 p.m. the next day.", "Is it nonstop?", "Yes."],
+        "korean": ["11월 23일 서울에서 뉴욕 가는 항공편을 예약하고 싶습니다.", "잠시만 기다리세요. 오전 10시20분에 서울에서 출발해서 다음날 오후 10시에 뉴욕에 도착하는 항공편이 있습니다.", "직항인가요?", "네."],
+        "explain": "비행기를 예약하는 상황입니다."
+       },
+
+       {
+        "name": "비행기 타기",
+        "step": ["Excuse me. Could I please change seats?", "Yes, no problem. Would you like an aisle seat or a window seat?", "Window seat, please."],
+        "korean": ["죄송합니다만, 자리 좀 바꾸어 주실 수 있습니까?", "네, 가능합니다. 통로 쪽과 창문 쪽 중 어떤 좌석을 원하십니까?", "창가 쪽 자리를 원합니다."],
+        "explain": "비행기에서 좌석을 바꾸는 상황입니다."
+       },
+
+       {
+        "name": "비행기 타기",
+        "step": ["May I see your passport, please?", "Yes. Here you are", "What's the purpose of your visit?", "I'm studying in Australia."],
+        "korean": ["여권 좀 보여주시겠습니까?", "예. 여기 있습니다", "호주에 어떤 목적으로 방문하셨습니까?", "공부하러 왔습니다."],
+        "explain": "입국심사를 통과하는 상황입니다."
+       },
+
+       {
+        "name": "일상 업무",
+        "step": ["I want to send this package", "What are the contents?", "It contains clothes", "Do you want it registered?", "Yes, please. How much will it be?", "ten dollars", "Can I get a money order here, too?", "No. You have to go to window three on your right"],
+        "korean": ["이 소포를 보내고 싶은데요.", "내용물이 무엇입니까?", "옷입니다.", "등기로 하시겠습니까?", "네. 얼마입니까?", "10달러입니다.", "여기서 우편환을 살 수 있습니까?", "아뇨. 오른쪽 3면 창구로 가셔야 합니다."],
+        "explain": "우체국에서 소포를 보내는 상황입니다."
+       },
+
+       {
+        "name": "일상 업무",
+        "step": ["How would you like your hair cut?", "I brought a photo. I'd like my hair to look like this picture", "No problem. Would you like your hair shampooed?", "Yes, please."],
+        "korean": ["머리를 어떻게 해드릴까요?", "제가 사진을 가지고 왔는데, 이렇게 해주세요.", "걱정 마세요. 머리는 감으실 건가요?", "네."],
+        "explain": "미용실에서 머리를 다듬는 상황입니다."
+       },
+
+       {
+        "name": "일상 업무",
+        "step": ["I have a bad toothache", "Come this way and sit down here, please. Open your mouth wide, will you?", "One of my lower back teeth is killing me.", "Yes, this big one is badly decayed. I'm afraid it has to be pulled out."],
+        "korean": ["이가 매우 아파요", "이쪽으로 오세요. 여기 앉아서 입을 크게 벌려주세요.", "아래 어금니 하나가 매우 아파요.", "네 큰 어금니가 몹시 썩었군요. 뽑아야겠습니다."],
+        "explain": "치과에서의 상황입니다."
+       },
+
+       
+       {
+        "name": "환경",
+        "step": ["Those people are throwing away empty bottles on the street", "It's very dangerous", "We should recycle the bottles", "Then we'll have a clean city"],
+        "korean": ["사람들이 빈 병을 거리에 버리고 있어.", "그런 행동은 위험한 일이야.", "우리는 병을 재활용해야 돼.", "그러면 깨끗한 도시가 될 거야."],
+        "explain": "환경에 대해서 말하는 상황입니다."
+       }
+    ]
+ }
