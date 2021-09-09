@@ -58,7 +58,7 @@ public class GameStart extends JFrame {
 	// 클라이언트가 입력한 아이디 값을 클라이언트도 알도록 전역 변수로 설정.
 	private String IDString;
 	// 제시어를 담아놓은 배열.
-	public String[] problem = { "상어", "과제", "시험", "자바", "프로젝트" };
+	public String[] problem = { "Shark", "home", "test", "JAVA", "chair", "desk", "mouse", "light", "red", "water", "clock" };
 	// 턴이 변화할 때 마다 제시어를 순차적으로 선택하는 변수.
 	public int selectProblem = 0;
 
